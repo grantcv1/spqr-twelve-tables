@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="twelve-tables.css"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" version="3.1">
+  <act name="reconstruction" contains="originalVersion">
+    <meta>
+      <identification source="#gvergottini">
+        <FRBRWork>
+          <FRBRthis value="/akn/rome/act/-0449-01-01/twelve-tables/!main"/>
+          <FRBRuri value="/akn/rome/act/-0449-01-01/twelve-tables"/>
+          <FRBRalias value="Lex Duodecim Tabularum" name="latin"/>
+          <FRBRalias value="The Twelve Tables" name="short"/>
+          <FRBRdate date="-0449-01-01" name="traditionalYear"/>
+          <FRBRauthor href="#decemvirs" as="#author"/>
+          <FRBRcountry value="rome"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/rome/act/-0449-01-01/twelve-tables/eng@2005-01-24/!main"/>
+          <FRBRuri value="/akn/rome/act/-0449-01-01/twelve-tables/eng@2005-01-24"/>
+          <FRBRdate date="2005-01-24" name="transcription"/>
+          <FRBRauthor href="#colemanNorton" as="#editor"/>
+          <FRBRlanguage language="eng"/>
+          <FRBRtranslation href="/akn/rome/act/-0449-01-01/twelve-tables/lat" fromLanguage="lat" by="#colemanNorton"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/rome/act/-0449-01-01/twelve-tables/eng@2005-01-24/!main.xml"/>
+          <FRBRuri value="/akn/rome/act/-0449-01-01/twelve-tables/eng@2005-01-24.xml"/>
+          <FRBRdate date="2026-11-02" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#gvergottini">
+        <TLCOrganization eId="decemvirs" href="/ontology/organization/rome.decemviri" showAs="The Roman decemvirs"/>
+        <TLCPerson eId="colemanNorton" href="/ontology/person/us.paulColemanNorton" showAs="P.R. Coleman-Norton"/>
+        <TLCPerson eId="gvergottini" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCRole eId="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="editor" href="/ontology/role/editor" showAs="Editor"/>
+      </references>
+      <notes source="#colemanNorton">
+        <note eId="note_5" GUID="C80D8874-6477-4E40-B184-94ED0ABFF52A" marker="5">
+          <p>Words between [ ] complete the sense of a sentence. Words between ( ) are either definitions or translations.</p>
+        </note>
+        <note eId="note_6" GUID="4535C8EC-2889-49D9-8A75-CF7A894185CD" marker="6">
+          <p>The as originally was a bar (one foot in length) of aes (copper), then a weight, then a coin weighing one pound and worth about $.17. From time to time the as was reduced in weight and was depreciated in value, until by the provisions of the Lex Papiria in 191 B.C. the as weighed one-half ounce and was valued at $.008.</p>
+        </note>
+        <note eId="note_7" GUID="6527D400-2FA6-4A2E-A7DE-91E16A8D3FBC" marker="7">
+          <p>Some scholars suggest that this statute should be translated thus: "When the parties agree on preliminaries, each party shall plead."</p>
+        </note>
+        <note eId="note_8" GUID="167D7B59-8E86-4D5A-BF11-C568C12D4DDF" marker="8">
+          <p>The index hears cases in which a fixed amount is to be adjudged.</p>
+        </note>
+        <note eId="note_9" GUID="1B48C173-5FD1-4914-9A1F-E7A99AD12ABE" marker="9">
+          <p>The arbiter hears cases in which an indefinite sum is to be assessed.</p>
+        </note>
+        <note eId="note_10" GUID="69811ECC-7185-4744-A84E-88B88B7627C1" marker="10">
+          <p>At this time in the language reus means any litigant; in later Latin reus is restricted to signify the defendant.</p>
+        </note>
+        <note eId="note_11" GUID="4B223483-C29A-48B7-95D7-47554348DD78" marker="11">
+          <p>Perhaps "on every other day" or "on three market-days" is meant.</p>
+        </note>
+        <note eId="note_12" GUID="C938A5C3-8952-4211-B9B4-4017733FFBE6" marker="12">
+          <p>This means, we suppose, that the litigant requiring evidence must proclaim his need by shouting certain legal phrases before the residence of the person who is capable of supplying such evidence and who thereby is summoned to court.</p>
+        </note>
+        <note eId="note_13" GUID="3E415E0A-5254-436A-A0DC-E329D74D8A4D" marker="13">
+          <p>Some scholars suggest that the Latin represented by the words "and for matters in court" should be omitted and that the passage should open "For persons judged liable for acknowledged debt", thus restricting the period of thirty days' grace only to matters of debt. Even if this view be correct, it disproves not the probability that the thirty days applied to various kinds of cases.</p>
+        </note>
+        <note eId="note_14" GUID="2ABD14D4-3478-4775-AAED-B1469A20EB57" marker="14">
+          <p>"Shall cut pieces" (partes secanto) is explained variously: "to divide the debtor's functions or capabilities", "to claim shares in the debtor's property", "to divide the price obtained for the sale of the debtor's person", "to divide the debtor's family and goods", "to announce to the magistrate their shares of the debtor's estate"; the old Roman writers, however, understand by the phrase that the creditors can cut their several shares of the debtor's body!</p>
+        </note>
+        <note eId="note_15" GUID="6E7984DD-3E0F-46BF-BC5F-0446C0C3992C" marker="15">
+          <p>In primitive times a father can sell his son into slavery. If the buyer free the son, the son reënters his father's control (patria potestas).</p>
+          <p>Here apparently we have an old formula surviving in a sham triple sale, whereby a descendant is liberated from the authority of an ascendant, or after a triple transfer and a triple manumission the son is freed from his father and stands in his own right (sui iuris).</p>
+        </note>
+        <note eId="note_16" GUID="CEECD2C9-7165-4E11-B415-7C649B41CE1D" marker="16">
+          <p>Otherwise (an interpretation probably, perhaps not a paraphrase): "After ten months from [the father's] death a child born shall not be admitted into a legal inheritance."</p>
+        </note>
+        <note eId="note_17" GUID="11B197A6-E0E6-48B1-BF40-4138FB1E7806" marker="17">
+          <p>"Full age" for females is 25 years. For keeping women of full age under a guardian almost no reason of any worth can be urged. The common belief, that because of the levity of their disposition (propter animi levitatem) they often are deceived and therefore may be guided by a guardian, seems more plausible than true.</p>
+          <p>According to Roman Law of this period a woman never has legal independence: if she be not under the power (potestas) of her father, she is dependent on the control (manus) of her husband or, unmarried and fatherless, she is subject to the governance (tutela) of her guardian.</p>
+        </note>
+        <note eId="note_18" GUID="5E881A1F-AA2E-4AD8-8F53-4C4D11228552" marker="18">
+          <p>Agnates (agnati) are relatives by blood or through adoption on male side only; cognates (cognati) are blood-relatives on either male or female side. The family of the ius civile is the agnatic family; the family of the ius gentium is the cognatic family.</p>
+        </note>
+        <note eId="note_19" GUID="A56C16C1-AB00-46BA-BAC4-A9567AAC6D09" marker="19">
+          <p>Beside a guardian (tutor) for a child of certain age (sixth statute of this Table; cf. p. 7, n. 21) there is provided also a guardian (custos, later curator) for a lunatic and for a prodigal (seventh statute of this Table).</p>
+        </note>
+        <note eId="note_20" GUID="6E8D6052-CBCA-4772-8F92-47D0E535885C" marker="20">
+          <p>Clansmen (gentiles) are persons all belonging to the same clan (gens) as the deceased and of course include agnates, when these exist.</p>
+        </note>
+        <note eId="note_21" GUID="4B7DC55C-6B3A-4AC9-A75E-C1B267BFB7E7" marker="21">
+          <p>Boys between the ages of 7 and 15, girls between the ages of 7 and 13, women neither under paternal power (patria potestas) nor under marital control (in manu mariti).</p>
+        </note>
+        <note eId="note_22" GUID="B946B0BC-4945-4C7B-9C31-BCAA331D91F7" marker="22">
+          <p>Another version of this provision reads thus: "Debts bequeathed by inheritance shall be divided by automatic liability (ipso iure) proportionally [among the heirs], after the details shall have been investigated."</p>
+        </note>
+        <note eId="note_23" GUID="18CE723F-1E4A-425E-BF91-476500C9E176" marker="23">
+          <p>That is, the judicial division of an estate by a iudex among the disagreeing coheirs.</p>
+        </note>
+        <note eId="note_24" GUID="6A71F2C6-CFBD-468E-95FF-5E90F896BF4B" marker="24">
+          <p>That is, double the proportionate part of the price or of the things transferred.</p>
+        </note>
+        <note eId="note_25" GUID="EEFE5DCE-F929-43AF-A3B1-BFAF2754C35C" marker="25">
+          <p>This statute is set in Table I by some scholars.</p>
+        </note>
+        <note eId="note_26" GUID="9592371F-3E17-49AF-AFC5-2F8E53238200" marker="26">
+          <p>This probably means that a foreigner resident in Roman territory never can obtain rights over any property simply by long possession (usu-capio) thereof; but the meaning of auctoritas in this clause is disputed. At any rate usucapio is peculiar to Roman citizens.</p>
+          <p>This provision sometimes is placed in Table III by scholars.</p>
+        </note>
+        <note eId="note_27" GUID="6B523641-CB49-4160-AA23-0583F2B6BD19" marker="27">
+          <p>This is an exclusively patrician type of wedding, wherein is made a mutual offering of bread in the presence of a priest and ten witnesses.</p>
+        </note>
+        <note eId="note_28" GUID="EF7E9F97-A131-44E7-AA4D-C586E99A18F7" marker="28">
+          <p>This type of wedlock, used originally by plebeians, is a fictitious sale, by which a woman is freed from either patria potestas or tutela. It comes perhaps from the primitive custom of bride-purchase.</p>
+        </note>
+        <note eId="note_29" GUID="D5A250A7-6BA1-47FE-A424-062786A64826" marker="29">
+          <p>This method explains how a wife can remain married to a husband without remaining in his manus (rights of possession). If the usus be interrupted, the time of the usus must begin afresh, because the previous possession (usus) is considered as cancelled.</p>
+        </note>
+        <note eId="note_30" GUID="D6E43901-51B8-4B29-BEAE-91B90F66090E" marker="30">
+          <p>Apparently tignum, as "timber" in English covers material for construction, includes every kind of material used in buildings and in vine-yards.</p>
+        </note>
+        <note eId="note_31" GUID="C2497880-08AD-4E0A-A0B7-5064B2E115FF" marker="31">
+          <p>This strip is reserved as a path between any two estates belonging to different owners. Both owners can walk on the whole space, but neither owner can claim possession of the strip through continued usage.</p>
+        </note>
+        <note eId="note_32" GUID="5DEB75BB-6250-4CBC-9A06-F1A03154731B" marker="32">
+          <p>In view of the ancient tradition that the decemvirs sent to Athens a committee to study the laws written by Solon (c. 639 B.C.—c. 559 B.C.) for the Athenians (Livy, op. cit., III. 33. 5), it may not be out of place to record what Gaius (ob. c. 180 A.D.) reports about marking boundaries (Digesta, X. 1. 13): "We must remember in an action for marking boundaries (actio finium regundorum) that we must not overlook that old provision which was written in a manner after the pattern of the law which at Athens Solon is said to have given. For there it is thus: 'If any man erect a rough wall alongside another man's estate, he must not overstep the boundary; if he build a massive wall, he must leave one foot to spare; a building, two feet; if he dig a trench or a hole, he must leave a space equal or about equal in breadth to depth: if a well, six feet; an olive tree or a fig tree he must plant nine feet from the other man's property and any other trees five feet.'"</p>
+          <p>While there is no evidence whatever that any enactment of the Twelve Tables reproduced in any form the terms of the Athenian statute here quoted, still the Twelve Tables may have contained some such provisions.</p>
+        </note>
+        <note eId="note_33" GUID="3507FE61-A771-4CE0-89E5-FE5FC94B22A3" marker="33">
+          <p>What were these conditions we know not; all that we have from this item are the unbracketed words, which are quoted as examples of how words change their meanings and which are assigned to the Twelve Tables.</p>
+        </note>
+        <note eId="note_34" GUID="C8D13C09-70F4-451C-B65E-F2580575E94E" marker="34">
+          <p>Some scholars suppose that only branches over fifteen feet above ground are meant. In any case the idea is that shade from the tree may not damage a neighboring estate.</p>
+        </note>
+        <note eId="note_35" GUID="CE348E54-67E5-402A-9BBD-0A9B6882429A" marker="35">
+          <p>We know that this item was interpreted to include prose as well as verse.</p>
+        </note>
+        <note eId="note_36" GUID="26C82071-7A27-4FE8-AB76-A93F1F269E78" marker="36">
+          <p>Slander and libel are not distinguished from each other in Roman Law.</p>
+        </note>
+        <note eId="note_37" GUID="D4AE4D7A-397C-49E1-BDE2-5A1231F4ACBF" marker="37">
+          <p>The severity of the penalty indicates that the Romans viewed offence not as a private delict but as a breach of the public peace.</p>
+        </note>
+        <note eId="note_38" GUID="245CE879-83B3-469A-83D3-A49DA65E536E" marker="38">
+          <p>Apparently an incantation against a person, for the ninth statute in this Table treats such practice against property.</p>
+        </note>
+        <note eId="note_39" GUID="EF09DB77-ED0F-4C37-927C-CE59B1398438" marker="39">
+          <p>The penalty points to an incurable maim or break, because the next statute seems to provide for injuries which can be mended.</p>
+        </note>
+        <note eId="note_40" GUID="D03C135D-2A85-4C68-A5C6-75A6B8F33080" marker="40">
+          <p>Thus the injured person or his next of kin may maim or break limb for limb. Cf. the Mosaic lex talionis recorded in Leviticus, 24. 17-21.</p>
+        </note>
+        <note eId="note_41" GUID="CC65F60D-9D4E-4464-9975-015051EB45A3" marker="41">
+          <p>Most scholars connect this fragment with damage to property and conjecture that the rest of it must have been concerned with compensation for accidental damage.</p>
+        </note>
+        <note eId="note_42" GUID="5296E1EF-08BA-4214-8744-787017876BE9" marker="42">
+          <p>That is, the animal which committed the damage may be surrendered to the aggrieved person.</p>
+        </note>
+        <note eId="note_43" GUID="37FC02F9-6853-466E-981E-DC6E43EA7002" marker="43">
+          <p>From the context, wherein the unbracketed words are preserved, we can reconstruct the sense of this statute.</p>
+        </note>
+        <note eId="note_44" GUID="2CA63096-2C59-482D-9C3F-30CE4FF9F972" marker="44">
+          <p>Not apparently into one's own fields, but to destroy these where these were.</p>
+        </note>
+        <note eId="note_45" GUID="3972C42C-1800-4314-B444-F6866250D9E6" marker="45">
+          <p>Apparently into one's own fields by means of magical incantation.</p>
+        </note>
+        <note eId="note_46" GUID="3AADA400-5B75-4A71-BEB8-D3D9CCE307F7" marker="46">
+          <p>Properly the goddess of creation, occasionally (by extension) the goddess of marriage, usually the goddess of agriculture, especially the goddess of cultivation of grain and of growth of fruits in general.</p>
+          <p>Ceres is represented commonly as a matronly woman, always clad in full attire of flowing draperies, crowned either with a simple ribband or with ears of grain holding in her hand sometimes a poppy, sometimes a scepter, sometimes a sickle, sometimes a sheaf of grain, sometimes a torch, sometimes a basket full of fruits or of flowers, seated or standing in a chariot drawn by dragons or by horses.</p>
+        </note>
+        <note eId="note_47" GUID="41FC4BB0-7C0B-4A73-AB83-478FA99E44B4" marker="47">
+          <p>That is, the slayer must call aloud, lest he be considered a murderer trying to hide his own act.</p>
+          <p>Our sources leave it uncertain whether the law forbids that a thief be killed by day, unless he defend himself, with a weapon, or the law permits that a thief be killed, if he so defend himself.</p>
+        </note>
+        <note eId="note_48" GUID="72AECB8F-0C68-4A90-A0AE-572E9992077E" marker="48">
+          <p>A southern spur of the Capitoline Hill, which overlooks the Forum, and named after Tarpeia, a legendary traitress, who, tempted by golden ornaments of besieging Sabines, opened to them the gate of the citadel, of which her father was a governor during the regal period. As they entered, the enemy by their shields crushed her to death: Tarpeia was buried on the Capitoline Hill, whereon stood the citadel, and her memory was preserved by the name of the Tarpeian Rock (Rupes Tarpeia), whence certain classes of condemned criminals, in later times, were thrown to their death.</p>
+        </note>
+        <note eId="note_49" GUID="876A75A9-F1A0-4F30-BAAF-61417C3FB49F" marker="49">
+          <p>Our sources tell us that a person who searched for stolen property on the premises of another searched alone and naked, lest he be deemed later to have brought concealed in his clothing any article, which he might pretend then to have found in the house, save for a loincloth and a platter, on the latter of which he probably placed the stolen articles when found. We hear also that a man could institute a search in normal dress, but only in the presence of witnesses. If in the latter case stolen goods were discovered, the thief on conviction was condemned to pay thrice their value for furtum conceptum (detected theft). But in either case, if the accused householder could prove that a person other than himself for any reason had placed the stolen articles in his house, he could obtain from that person on conviction damages of thrice their value for furtum oblatum ("planted" theft). Search by platter and loincloth (lanx et licium) became obsolete; search with witnesses present survived.</p>
+        </note>
+        <note eId="note_50" GUID="65CE33DE-D4C1-471D-86D6-990A1F5AC102" marker="50">
+          <p>The ancient commentators take this statute to mean "double in kind" not in value: for example, two cows surrendered for one cow stolen.</p>
+        </note>
+        <note eId="note_51" GUID="3CD18553-7411-4923-AF17-F1CA7DEA3C32" marker="51">
+          <p>That is, neither a thief nor a receiver of stolen goods, whether acquired through purchase or by other method, can acquire title to property in stolen goods through long possession of such.</p>
+        </note>
+        <note eId="note_52" GUID="969D45DB-EB29-44E2-89AD-55855E4C78DC" marker="52">
+          <p>The uncia (whence our "ounce") is the unit of division of the as and is used also as one-twelfth of anything. One-twelfth of the principal paid yearly as interest equals 8-1/3%.</p>
+        </note>
+        <note eId="note_53" GUID="62FB7CF0-8420-438F-B3FA-B739DED9B7DF" marker="53">
+          <p>This originally is a religious penalty, whereby the person is sacrificed. But sacer comes to mean "a person disgraced and outlawed and deprived of his property."</p>
+        </note>
+        <note eId="note_54" GUID="FCF9BE58-8F89-4EB0-9CCF-F912843E0C36" marker="54">
+          <p>At a sale (mancipium or mancipatio) the buyer in the presence of five adult citizens had his money weighed by another adult citizen who held scales for this purpose.</p>
+          <p>This practice obtained originally ere the introduction of coinage.</p>
+        </note>
+        <note eId="note_55" GUID="D120D94A-F523-4A76-AC6C-584CFEDD3E32" marker="55">
+          <p>That is, enactments referring to a single citizen, whether or not in his favor.</p>
+        </note>
+        <note eId="note_56" GUID="71366040-E5DD-4E9D-BBF1-9CCA08ECEEB1" marker="56">
+          <p>Caput includes also privileges of citizenship (civitas).</p>
+        </note>
+        <note eId="note_57" GUID="0F3D9F5D-DAF2-4DA1-BF1E-FC9C6911B4DB" marker="57">
+          <p>Commonly known as the comitia centuriata, an assembly which comprised all citizens. To this assembly a citizen convicted in court on a capital charge had the right of appeal (ius provocationis) at least as early as the passage of the Lex Valeria in 509 B.C., for Cicero claims that the pontifical as well as the augural books state that the right of appeal from the regal sentences had been recognized (De Re Publica, 11. 31. 54).</p>
+        </note>
+        <note eId="note_58" GUID="29154C85-F5E9-47BD-837E-193F4BEFFB60" marker="58">
+          <p>This statute is quoted by Cicero (De Legibus, III. 4. 11), who inserts censores (censors) as the subject of the last verb locassint (have placed). But the last clause must have been "modernized" either by Cicero or in his source, because the promulgation of the Twelve Tables in 449 B.C. antedated the creation of the censorship, which can not be traced higher than 443 B.C., if we can believe Livy's account of its institution (op. cit., IV. 8. 2-7). Before that time the consuls superintended the lists of citizens.</p>
+        </note>
+        <note eId="note_59" GUID="F0461733-FB8C-4B02-90C2-0D4D85394951" marker="59">
+          <p>The first provision doubtlessly descends from a primitive tribal tabu. Cicero supposes that the second provision is due to danger from fire (De Legibus, II. 23. 58).</p>
+        </note>
+        <note eId="note_60" GUID="A7142A5C-05AA-4BE2-BDFE-49DC848B36C0" marker="60">
+          <p>In view of the simplicity enjoined in some of the following statutes of this Table, for the decemvirs apparently took a dim view of extravagant funerals, this statute seems to mean that a rough-hewn pyre without elaborate smoothness of its wooden material suffices for the cremation-couch of a citizen.</p>
+        </note>
+        <note eId="note_61" GUID="C1670E4A-7E37-4B28-87B4-00C8C43A60B9" marker="61">
+          <p>Cicero says that some older interpreters suspected that some kind of mourning-garment was meant by lessus, but that he inclines to the interpretation that it signifies a sort of sorrowful wailing (De Legibus, II.23.59)</p>
+        </note>
+        <note eId="note_62" GUID="83A002B7-10E9-447C-886F-EE6F638516DA" marker="62">
+          <p>This provision is aimed at the common custom of prolonging mourning by gathering and preserving unburied some part of the corpse. When this part (os resectum) later had been buried, then only mourning ceased. It is possible that some Romans may have thought that cremation might be wrong or that its ceremony was inadequate.</p>
+        </note>
+        <note eId="note_63" GUID="10DC5772-9818-462C-8E0E-A6AD6564D3E2" marker="63">
+          <p>That is, in such a case a limb could be carried to Rome and then buried.</p>
+        </note>
+        <note eId="note_64" GUID="A6E1B081-6BC2-4413-B0D8-D5211B028577" marker="64">
+          <p>That is, a garland or a chaplet or a wreath as a prize of achievement.</p>
+        </note>
+        <note eId="note_65" GUID="A9D21634-01AD-41E2-BC80-E50B452902CE" marker="65">
+          <p>A chattel, for example, is a slave or a horse who wins a wreath for the owner.</p>
+        </note>
+        <note eId="note_66" GUID="1519A395-0212-4B44-B9D6-2D4AECA655D3" marker="66">
+          <p>Cicero says that this statute seems to suggest fear of disastrous fire (De Legibus, II. 24. 61).</p>
+        </note>
+        <note eId="note_67" GUID="FEB42D9A-BA8A-434F-B7B0-E2AF51ED64CE" marker="67">
+          <p>In the burning-mound also ashes were buried.</p>
+        </note>
+        <note eId="note_68" GUID="F990DF7F-4515-469F-A707-14B0147555D0" marker="68">
+          <p>This statute proved so unpopular that it soon was repealed by the Lex Canuleia in 445 B.C.</p>
+        </note>
+        <note eId="note_69" GUID="9C23523C-99EF-403D-AF55-67D012ACB4CC" marker="69">
+          <p>This process of "taking a pledge" is the seizure and the detention of a debtor's property or part thereof to induce the debtor to pay the debt before any other legal action will be taken.</p>
+          <p>It will be noticed that the two instances given in this statute concern Sacred Law, with which by anticipation the fourth statute of this Table likewise is concerned. Modern scholars place these two provisions among the Supplementary Laws despite the temptation to set these among the statutes of Table X, of which all but one item come from Cicero's discussion of Sacred Law in his De Legibus, II. 23. 58-24. 61, in the concluding portion of which Cicero seems to speak with some finality that he has given all the regulations regarding religion found in the Twelve Tables. Moreover these two rules come from Gaius, who flourished more than two centuries after Cicero. But if every Supplementary Law resembling the subject-matter of Tables I-X should be advanced to the appropriate position forward, few would be the statutes left in Tables XI-XII. It is merely coincidental that some of the statutes among the Supplementary Laws should concern topics already treated, for from the Romans we must not remove the faculty of aftersight.</p>
+        </note>
+        <note eId="note_70" GUID="EF3F5DEE-BF92-4709-8A29-C34C577D29F2" marker="70">
+          <p>Some scholars seek to place this provision in Table VIII, where it seems properly to belong, despite its traditional position here.</p>
+          <p>This dislocation, coupled with that of the preceding provision, well illustrates how hopeless is our reconstruction of the order of the regulations of the Twelve Tables.</p>
+        </note>
+        <note eId="note_71" GUID="25C3C385-1D49-4183-B089-E0D1E1DB999C" marker="71">
+          <p>That is, apparently, if a person with or without fraudulent intent had held and claimed as his a thing which a judicial court now decided belonged to another party.</p>
+        </note>
+        <note eId="note_72" GUID="0E754D31-BA89-459A-BC5F-880B3448E617" marker="72">
+          <p>Retention of the article is deemed to have brought the defendant some profit; therefore he must pay double this profit.</p>
+        </note>
+        <note eId="note_73" GUID="D9809203-BB17-40D7-834F-BE0F7C2E6361" marker="73">
+          <p>Cf. second paragraph in note [69] supra.</p>
+        </note>
+        <note eId="note_74" GUID="2833B8AD-6A3F-4DEA-963F-0FAD08DEB003" marker="74">
+          <p>That is, the most recent law repeals all previous laws which are inconsistent with it.</p>
+        </note>
+        <note eId="note_75" GUID="EAFF68D7-2E87-46AE-A5B2-3F17C57D033E" marker="75">
+          <p>Cicero says that many laws in the Twelve Tables exhibit this rule (De Re Publica, II. 31. 54).</p>
+        </note>
+      </notes>
+    </meta>
+    <preface>
+      <p class="tablesTitle"><docTitle>The Twelve Tables</docTitle><noteRef href="#note_5" marker="5"/></p>
+      <p class="tablesLine">Arranged and translated by P.R. Coleman-Norton</p>
+    </preface>
+    <body>
+      <hcontainer name="table" eId="tbl_I" GUID="9762A284-5B3D-4B0A-972A-954ABFB24238">
+        <num>Table I</num>
+        <heading>Proceedings Preliminary to Trial</heading>
+        <hcontainer name="fragment" eId="tbl_I__frg_1" GUID="C73B7B5A-50B8-447A-B04A-9F896016E207">
+          <num>1.</num>
+          <content>
+            <p>If he <span class="gloss">(the plaintiff)</span> summon <span class="supplied">[the defendant]</span> to court <span class="gloss">(in ius)</span>, he <span class="gloss">(the defendant)</span> shall go. If he <span class="gloss">(the defendant)</span> go not, he <span class="gloss">(the plaintiff)</span> shall call a witness thereto. Then only he <span class="gloss">(the plaintiff)</span> shall take <span class="supplied">[the defendant]</span> by force.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_I__frg_2" GUID="A33163B5-6745-4189-9B7C-EFCE1D50BA60">
+          <num>2.</num>
+          <content>
+            <p>If he <span class="gloss">(the defendant)</span> attempt evasion or take to flight, he <span class="gloss">(the plaintiff)</span> shall lay hand <span class="supplied">[on the defendant]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_I__frg_3" GUID="3670FA86-BA3D-412C-BD7C-DBD8F806B1F5">
+          <num>3.</num>
+          <content>
+            <p>If disease or <span class="supplied">[old]</span> age shall be an impediment, he who shall summon <span class="supplied">[the defendant]</span> to court <span class="gloss">(in ius)</span> shall grant <span class="supplied">[him]</span> a conveyance; if he <span class="gloss">(the plaintiff)</span> shall not wish, he <span class="gloss">(the plaintiff)</span> shall not spread <span class="supplied">[with cushions]</span> a covered carriage.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_I__frg_4" GUID="E8B142F4-B0FE-412D-8557-FC54C1FAE613">
+          <num>4.</num>
+          <content>
+            <p>For a freeholder <span class="gloss">(taxpayer whose fortune is valued at not less than 1,500 asses<noteRef href="#note_6" marker="6"/>)</span> a freeholder shall be surety <span class="gloss">(vindex)</span> <span class="supplied">[for his appearance at trial]</span>. For a proletary <span class="gloss">(non-taxpayer whose fortune is rated at less than a freeholder's)</span> any one who shall be willing shall be surety <span class="gloss">(vindex)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_I__frg_5" GUID="0639689D-1001-4EE6-959C-1ADBBEBFBCA9">
+          <num>5.</num>
+          <content>
+            <p>When they <span class="gloss">(the parties)</span> come to terms, <span class="supplied">[an official]</span> shall announce <span class="supplied">[it]</span>.<noteRef href="#note_7" marker="7"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_I__frg_6" GUID="62649F77-6A79-45B3-BB17-0999E4C09CC9">
+          <num>6.</num>
+          <content>
+            <p>If they <span class="gloss">(the parties)</span> agree not on terms, they shall state <span class="supplied">[their]</span> case in the comitium <span class="gloss">(meeting-place)</span> or, in the forum <span class="gloss">(market-place)</span> ere noon. Both <span class="gloss">(parties)</span> shall appear in person and shall argue the matter.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_I__frg_7" GUID="C3B7C462-3A84-444F-A9FF-9568998E5A1E">
+          <num>7.</num>
+          <content>
+            <p><span class="supplied">[If one of the parties shall not have appeared,]</span> after noon <span class="supplied">[the judge]</span> shall adjudge the case <span class="gloss">(lis)</span> in favor of him present.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_I__frg_8" GUID="244F748C-47CC-4835-A952-3CBD490FF280">
+          <num>8.</num>
+          <content>
+            <p>If both <span class="gloss">(parties)</span> be present, sunset shall be the time-limit <span class="supplied">[of the proceedings]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_I__frg_9" GUID="782BD771-E819-42EF-B851-A4FC666F989C">
+          <num>9.</num>
+          <content>
+            <p><span class="supplied">[Both parties shall post]</span> sureties <span class="gloss">(vades)</span> and subsureties <span class="gloss">(subvades)</span> <span class="supplied">[for their appearance]</span>.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_II" GUID="822AA55A-73C5-43D9-9AC9-BC6E196DBE98">
+        <num>Table II</num>
+        <heading>Trial</heading>
+        <hcontainer name="fragment" eId="tbl_II__frg_1" GUID="493AFD66-7D3E-4CE9-8CF4-01765A9FF609">
+          <num>1.</num>
+          <content>
+            <p>The legal action of solemn deposit <span class="gloss">(sacramenti actio)</span> <span class="supplied">[demands that each litigant shall wager either 500 asses or 50 asses]</span>: 500 asses for solemn deposit <span class="gloss">(sacramentum)</span> when the subject of the dispute <span class="supplied">[is valued at]</span> 1,000 asses or more, 50 asses when <span class="supplied">[estimated at]</span> less <span class="supplied">[than 1,000 asses]</span>. <span class="supplied">[But]</span> if the controversy concerns the liberty of a human being <span class="supplied">[, however valuable may be the person]</span>, the solemn deposit <span class="gloss">(sacramentum)</span> <span class="supplied">[shall be]</span> 50 asses.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_II__frg_2" GUID="824E6D3D-7FB3-4E23-9B59-04261EC0B46F">
+          <num>2.</num>
+          <content>
+            <p>A dangerous disease or a day appointed <span class="supplied">[for the hearing of a case]</span> with an alien <span class="supplied">[, when the latter is a party]</span> <omissis>…</omissis> If any of these <span class="gloss">(circumstances)</span> be an impediment for judge <span class="gloss">(index)</span><noteRef href="#note_8" marker="8"/> or arbitrator <span class="gloss">(arbiter)</span><noteRef href="#note_9" marker="9"/> or party <span class="gloss">(reus)</span>,<noteRef href="#note_10" marker="10"/> on this account the day of trial shall be deferred.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_II__frg_3" GUID="DFFF5624-4F6A-414B-B16D-85F298A2AAA1">
+          <num>3.</num>
+          <content>
+            <p>Whoever shall have need of evidence, he shall go on every third day<noteRef href="#note_11" marker="11"/> to cry<noteRef href="#note_12" marker="12"/> before the doorway <span class="supplied">[of the witness's house]</span>.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_III" GUID="823FD785-BCC6-4B86-AC11-614E908C5732">
+        <num>Table III</num>
+        <heading>Debt</heading>
+        <hcontainer name="fragment" eId="tbl_III__frg_1" GUID="626CD320-3E55-4BD5-AACA-768CC04BC337">
+          <num>1.</num>
+          <content>
+            <p>Of debt acknowledged and for matters judged in court <span class="gloss">(in iure)</span> thirty days shall be allowed by law <span class="supplied">[for payment or for satisfaction]</span>.<noteRef href="#note_13" marker="13"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_III__frg_2" GUID="5DBFC8C1-C3DE-491C-A847-C4744A51E7D6">
+          <num>2.</num>
+          <content>
+            <p>After that <span class="supplied">[elapse of thirty days without payment]</span> hand shall be laid on <span class="gloss">(manus iniectio)</span> <span class="supplied">[the debtor]</span>. He shall be brought into court <span class="gloss">(in ius)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_III__frg_3" GUID="04352B09-3D5A-4CF8-B5A4-8D58BEEECED7">
+          <num>3.</num>
+          <content>
+            <p>Unless he <span class="gloss">(the debtor)</span> discharge the debt or unless some one appear in court <span class="gloss">(in iure)</span> to guarantee payment for him, he <span class="gloss">(the creditor)</span> shall take <span class="supplied">[the debtor]</span> with him. He shall bind <span class="supplied">[him]</span> either with thong or with fetters, of which the weight shall be not less than fifteen pounds or shall be more, if he <span class="gloss">(the creditor)</span> choose.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_III__frg_4" GUID="947B48DC-A69C-4DA2-BFBB-428890EAF677">
+          <num>4.</num>
+          <content>
+            <p>If he <span class="gloss">(the debtor)</span> choose, he shall live on his own <span class="supplied">[means]</span>. If he live not on his own <span class="supplied">[means]</span>, <span class="supplied">[the creditor,]</span> who shall hold him in bonds, shall give <span class="supplied">[him]</span> a pound of bread daily; if he <span class="gloss">(the creditor)</span> shall so desire, he shall give <span class="supplied">[him]</span> more.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_III__frg_5" GUID="3F120B07-8E12-4515-914D-1F1B43826455">
+          <num>5.</num>
+          <content>
+            <p>Unless they <span class="gloss">(the debtors)</span> make a compromise, they <span class="gloss">(the debtors)</span> shall be held in bonds for sixty days. During those days they shall be brought to <span class="supplied">[the magistrate]</span> into the comitium <span class="gloss">(meeting-place)</span> on three successive market-days and the amount for which they have been judged liable shall be declared publicly. Moreover on the third market-day they <span class="gloss">(the debtors)</span> shall suffer capital punishment <span class="gloss">(capite poenae)</span> or shall be delivered for sale beyond the Tiber <span class="supplied">[River]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_III__frg_6" GUID="9AD64D35-C87D-4411-9A33-B214126F9834">
+          <num>6.</num>
+          <content>
+            <p>On the third market-day they <span class="gloss">(the creditors)</span> shall cut pieces.<noteRef href="#note_14" marker="14"/> If they shall have cut more or less <span class="supplied">[than their shares]</span>, it shall be with impunity <span class="gloss">(s<span class="supplied">[in]</span>e fraude)</span>.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_IV" GUID="7DDECC19-1762-4CE0-988F-5B7F1DA1A99D">
+        <num>Table IV</num>
+        <heading>Paternal Power</heading>
+        <hcontainer name="fragment" eId="tbl_IV__frg_1" GUID="8DDE95C6-55E7-4E05-9F72-0F7AEF6C393F">
+          <num>1.</num>
+          <content>
+            <p>A dreadfully deformed child shall be killed quickly.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_IV__frg_2" GUID="4C641282-0A6A-454E-A30D-D7BAB24B62FC">
+          <num>2.</num>
+          <content>
+            <p>If a father thrice surrender a son for sale, the son shall be free from the father.<noteRef href="#note_15" marker="15"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_IV__frg_3" GUID="E106884F-0E61-4D37-A19A-D5C52FB0EEDB">
+          <num>3.</num>
+          <content>
+            <p><span class="supplied">[To repudiate his wife her husband]</span> shall order her to mind her own affairs, shall take <span class="supplied">[her]</span> keys <span class="supplied">[, shall expel her]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_IV__frg_4" GUID="A5AD7BC1-9B4B-4F3D-9F3C-E5748E9F6EBD">
+          <num>4.</num>
+          <content>
+            <p>Into a legal inheritance he who has been in the womb <span class="gloss">(in utero)</span> is admitted <span class="supplied">[, if he shall have been born]</span>.<noteRef href="#note_16" marker="16"/></p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_V" GUID="8FB4232E-8199-40A7-9778-0EB1C9A60058">
+        <num>Table V</num>
+        <heading>Inheritance and Guardianship</heading>
+        <hcontainer name="fragment" eId="tbl_V__frg_1" GUID="5391636A-498E-4487-BE89-D146070B4D81">
+          <num>1.</num>
+          <content>
+            <p>Women shall remain under guardianship <span class="gloss">(tutela)</span>, even though they shall become of full age <span class="gloss">(perfecta aetas)</span><noteRef href="#note_17" marker="17"/> <omissis>…</omissis> the Vestal Virgins are excepted <span class="supplied">[and]</span> shall be free <span class="supplied">[from control]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_2" GUID="1A89F801-AAAE-43E0-8C62-95CF79D371A0">
+          <num>2.</num>
+          <content>
+            <p>The mancipable <span class="gloss">(conveyable or movable)</span> possessions of a woman who is under tutelage of <span class="supplied">[her]</span> agnates<noteRef href="#note_18" marker="18"/> shall not be acquired rightfully by usucapion <span class="gloss">(long usage or long possession)</span>, save if these <span class="gloss">(possessions)</span> by herself shall have been delivered with the sanction of <span class="supplied">[her]</span> guardian <span class="gloss">(tutor)</span>.<noteRef href="#note_19" marker="19"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_3" GUID="EBC8C067-17A2-4AF3-8EED-18C7933900F9">
+          <num>3.</num>
+          <content>
+            <p>According as a person shall have ordered regarding his property or the guardianship <span class="gloss">(tutela)</span> of his estate, so shall be the law <span class="gloss">(ita ius esto)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_4" GUID="71F72913-85FE-45F9-A84E-93530BD7B7DC">
+          <num>4.</num>
+          <content>
+            <p>If a person die intestate <span class="gloss">(intestatus)</span> and have no self-successor <span class="gloss">(suus heres)</span>, the <span class="supplied">[deceased's]</span> nearest male agnate shall have possession of the estate.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_5" GUID="C782C996-2C9F-43AD-A92A-5A1D8077D28C">
+          <num>5.</num>
+          <content>
+            <p>If there be no male agnate, the <span class="supplied">[deceased's]</span> clansmen<noteRef href="#note_20" marker="20"/> shall have possession of the estate.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_6" GUID="543F7A8B-7E22-4A51-83C6-9E7DFBC5928D">
+          <num>6.</num>
+          <content>
+            <p>To persons<noteRef href="#note_21" marker="21"/> for whom a guardian <span class="gloss">(tutor)</span> shall not have been appointed by will <span class="gloss">(testamentum)</span>, to them <span class="supplied">[their]</span> agnates shall be guardians.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_7" GUID="AF66CBEC-8095-48B2-B078-656F4D37F82D">
+          <num>7.</num>
+          <content>
+            <p>If a person be insane <span class="gloss">(furiosus)</span>, if there be not a guardian <span class="gloss">(custos)</span> for him, rightful authority over his person and over his property shall belong to <span class="supplied">[his]</span> agnates and <span class="supplied">[in default of these]</span> to <span class="supplied">[his]</span> clansmen. If a person be a spendthrift <span class="gloss">(prodigus)</span>, he shall be prohibited from <span class="supplied">[administering his own]</span> goods and he shall be under the guardianship <span class="gloss">(curatio)</span> of <span class="supplied">[his]</span> agnates.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_8" GUID="839739CC-7FCF-4B8E-929B-85FC268F9132">
+          <num>8.</num>
+          <content>
+            <p>If a freedman <span class="gloss">(libertus)</span> shall have died intestate without self-successor, <span class="supplied">[his]</span> patron <span class="gloss">(patronus)</span> shall take the inheritance of a Roman citizen-freedman <omissis>…</omissis> from said household into said household.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_9" GUID="F6580C67-B8A9-4FB0-ADB5-7D1AB297320D">
+          <num>9.</num>
+          <content>
+            <p>Items which are in the category of debts <span class="supplied">[due to or incurred by a deceased person]</span> shall be divided <span class="supplied">[among his consuccessors]</span> by mere operation of law <span class="gloss">(ipso iure)</span> <span class="supplied">[in proportion]</span> to <span class="supplied">[their]</span> portions of the inheritance.<noteRef href="#note_22" marker="22"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_V__frg_10" GUID="97B53676-50AE-4420-B1A4-7E17CFF963DD">
+          <num>10.</num>
+          <content>
+            <p>Apportionment of an estate <span class="gloss">(actio familiae erciscundae)</span> <span class="supplied">[occurs]</span>, when coheirs <span class="gloss">(coheres)</span> wish to withdraw from common <span class="supplied">[and equal]</span> participation <span class="supplied">[in the inheritance]</span>.<noteRef href="#note_23" marker="23"/></p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_VI" GUID="31D674F8-839C-4FF8-884F-ED14590320F0">
+        <num>Table VI</num>
+        <heading>Ownership and Possession</heading>
+        <hcontainer name="fragment" eId="tbl_VI__frg_1" GUID="6D5084A8-9B67-4AB0-8B77-6B71DD2341E2">
+          <num>1.</num>
+          <content>
+            <p>When a person shall make bond <span class="gloss">(nexum)</span> and conveyance <span class="gloss">(mancipium)</span>, according as he has specified with <span class="supplied">[his]</span> tongue, so shall be the law <span class="gloss">(ita ius esto)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_2" GUID="F3B819F1-03CD-4CE5-8479-1A114F73181C">
+          <num>2.</num>
+          <content>
+            <p>Both conveyance <span class="gloss">(mancipatio)</span> and surrender in court <span class="gloss">(in iure cessio)</span> are confirmed.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_3" GUID="24C311A5-FF71-4AEF-A31B-5B243331AD55">
+          <num>3.</num>
+          <content>
+            <p>Articles which have been sold and delivered are not acquired by the buyer otherwise than if he has paid the price to the seller or has satisfied him in some other way, that is, by providing a guarantor <span class="gloss">(expromissor)</span> or a security <span class="gloss">(pignus)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_4" GUID="BDDDEAB0-825F-4189-966C-DFD4DB9C4CED">
+          <num>4.</num>
+          <content>
+            <p>It shall be sufficient to make good those <span class="supplied">[faults]</span> which have been named by <span class="supplied">[one's]</span> tongue, <span class="supplied">[while]</span> for those <span class="supplied">[flaws]</span> which he <span class="gloss">(the vendor)</span> has denied expressly <span class="supplied">[, when asked about these,]</span> he <span class="gloss">(the vendor)</span> shall undergo a penalty of double <span class="supplied">[damages]</span>.<noteRef href="#note_24" marker="24"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_5" GUID="3092ABAB-8285-4837-9140-F1FEF02B3543">
+          <num>5.</num>
+          <content>
+            <p>For a loyal person and for a person restored to allegiance there shall be the same right <span class="gloss">(ius)</span> of bond <span class="gloss">(nexum)</span> and of conveyance <span class="gloss">(mancipium)</span> with the Roman people.<noteRef href="#note_25" marker="25"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_6" GUID="176F4228-C163-4142-BBD3-9749518886D1">
+          <num>6.</num>
+          <content>
+            <p>Against an alien <span class="gloss">(hostis)</span> title of ownership <span class="gloss">(auctoritas)</span> shall be <span class="supplied">[valid]</span> forever.<noteRef href="#note_26" marker="26"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_7" GUID="F8181ECD-F89B-49EE-9129-52CDE5BEAB67">
+          <num>7.</num>
+          <content>
+            <p>A prescriptive title <span class="gloss">(usucapio)</span> of movable things is completed by one year's <span class="supplied">[possession]</span>, but <span class="supplied">[a prescriptive title]</span> of an estate and of buildings <span class="supplied">[is completed]</span> by two years' <span class="supplied">[possession]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_8" GUID="1F6B9A7E-4A08-4F36-BB35-C9EC5EA1A07B">
+          <num>8.</num>
+          <content>
+            <p>A person <span class="supplied">[who had been a slave and]</span> who has been declared to be a free man <span class="supplied">[in a will on some condition]</span>, if he shall have given 10,000 <span class="supplied">[asses]</span> to the heir, although he <span class="gloss">(the slave)</span> has been alienated by the heir, by giving the money to the purchaser shall enter into his freedom.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_9" GUID="B824AAFE-CF8B-488D-BCA1-D83C5637F98F">
+          <num>9.</num>
+          <content>
+            <p>If any woman <span class="supplied">[not married by confarreatio<noteRef href="#note_27" marker="27"/> or by co-emptio<noteRef href="#note_28" marker="28"/>]</span> be unwilling to be subjected in this manner <span class="supplied">[by usus <span class="gloss">(possession)</span>]</span> to the hand of her husband <span class="gloss">(in manum mariti)</span>, she shall be absent <span class="supplied">[from his house]</span> for three successive nights in every year and by this means shall interrupt the usus <span class="gloss">(possession)</span> of each year.<noteRef href="#note_29" marker="29"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_10" GUID="9022FD15-6F78-42F4-B71E-4E68E95B13A5">
+          <num>10.</num>
+          <content>
+            <p>If the <span class="gloss">(the parties)</span> join <span class="supplied">[their]</span> hands <span class="supplied">[on the disputed property when pleading]</span> in court <span class="gloss">(in iure)</span>, <span class="supplied">[the actual possessor shall retain provisional possession; but, when it is a case of personal freedom, the magistrate]</span> shall grant the right of claim <span class="gloss">(vindicia)</span> <span class="supplied">[provisionally to the party]</span> asserting <span class="supplied">[the person's]</span> freedom.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_11" GUID="895C6308-2404-4105-A67F-47C54EE806CD">
+          <num>11.</num>
+          <content>
+            <p><span class="supplied">[If he find that another has used his timber <span class="gloss">(tignum)</span><noteRef href="#note_30" marker="30"/> in building a house or in supporting vines,]</span> a person shall not dislodge from the framework the timber fixed in buildings in vineyard; <span class="supplied">[but he shall have the right of action]</span> for double <span class="supplied">[damages]</span> against him who has been convicted of fixing <span class="supplied">[such timber]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VI__frg_12" GUID="D44CFBDD-34A0-451D-989D-47A6776798C3">
+          <num>12.</num>
+          <content>
+            <p>Whenever <span class="supplied">[the vines]</span> have been pruned, until fruit shall have been gathered <span class="supplied">[therefrom, the owner shall not recover the timber]</span>.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_VII" GUID="4B1AB350-44F5-4BE9-B9CC-C53EF8E9B5F0">
+        <num>Table VII</num>
+        <heading>Real Property</heading>
+        <hcontainer name="fragment" eId="tbl_VII__frg_1" GUID="700B5D64-6C90-4232-9B70-145E3128CF0C">
+          <num>1.</num>
+          <content>
+            <p><span class="supplied">[Ownership]</span> within <span class="supplied">[a strip of]</span> five feet <span class="supplied">[along a boundary]</span> shall not be acquired by long usage <span class="gloss">(usucapio)</span>.<noteRef href="#note_31" marker="31"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_2" GUID="6446F63F-A73F-4E82-B7D7-EF391425B057">
+          <num>2.</num>
+          <content>
+            <p>The way round <span class="supplied">[each outer wall of a building]</span> shall be two and one-half feet.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_3" GUID="10F1D155-CE38-4B4A-922B-962474B752F3">
+          <num>3.</num>
+          <content>
+            <p>If they <span class="gloss">(the parties)</span> disagree, boundaries shall be marked by three arbitrators <span class="gloss">(arbiter)</span>.<noteRef href="#note_32" marker="32"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_4" GUID="10407220-3104-4DC5-8155-BA0BEE3C8F49">
+          <num>4.</num>
+          <content>
+            <p><span class="supplied">[Regulations relating to]</span> inclosures, inherited plots, cottages.<noteRef href="#note_33" marker="33"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_5" GUID="A7D0189B-559B-4167-A554-F7615AC62333">
+          <num>5.</num>
+          <content>
+            <p>The width of a road <span class="supplied">[extends to]</span> eight feet on a straight <span class="supplied">[stretch]</span>, <span class="supplied">[but it extends to]</span> sixteen <span class="supplied">[feet]</span> on a bend.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_6" GUID="D8922DE9-1D2A-4D29-9A4E-6373EB88D48E">
+          <num>6.</num>
+          <content>
+            <p><span class="supplied">[Neighboring]</span> persons shall mend the roadway. If they keep it not laid with stones, one shall drive <span class="supplied">[one's]</span> beast vehicles <span class="supplied">[across the land]</span> where one shall wish.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_7" GUID="FA0D505D-01FA-4FBF-BA52-F1CE60086B2C">
+          <num>7.</num>
+          <content>
+            <p>If rain-water do damage <span class="supplied">[through artificial diversion from its natural channels, the offending owner]</span> shall be restrained by an arbitrator <span class="gloss">(arbiter)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_8" GUID="E9DAC7B2-3C4D-41DA-90F5-1E11CF250D09">
+          <num>8.</num>
+          <content>
+            <p>If a water-course directed through a public place shall do damage to a private person, to the <span class="supplied">[same]</span> private person shall be <span class="supplied">[the right to bring]</span> an action <span class="gloss">(actio)</span>, that damage shall be repaired for the owner.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_9" GUID="D166FE8D-52A8-43EA-966B-86C6D100A5BC">
+          <num>9.</num>
+          <content>
+            <p>Branches of a tree may be lopped all around to a height of fifteen feet.<noteRef href="#note_34" marker="34"/> If a tree on a neighbor's farm <span class="supplied">[be bent crooked]</span> by the wind <span class="supplied">[and]</span> lean over one's farm, <span class="supplied">[one can take]</span> legal action <span class="gloss">(agere)</span> for removal of that <span class="supplied">[tree or at least of the offending part of it]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VII__frg_10" GUID="23DB9957-B8C5-4745-A9E2-3B04B6BB8C33">
+          <num>10.</num>
+          <content>
+            <p><span class="supplied">[The owner of a tree]</span> may gather its fruit which falls upon another's farm.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_VIII" GUID="A1EEE9ED-06F3-4DF2-A1F8-60DAF0CF645B">
+        <num>Table VIII</num>
+        <heading>Torts or Delicts</heading>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_1" GUID="CA2D7D38-7FCA-4684-933C-46AD2BD27C72">
+          <num>1.</num>
+          <content>
+            <p>If any person had sung or had composed a song,<noteRef href="#note_35" marker="35"/> which caused slander<noteRef href="#note_36" marker="36"/> or insult to another person <omissis>…</omissis> he should be clubbed to death.<noteRef href="#note_37" marker="37"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_2" GUID="9B7405E4-2030-413F-A692-54ABD8812440">
+          <num>2.</num>
+          <content>
+            <p>A person who had sung an evil spell <omissis>…</omissis><noteRef href="#note_38" marker="38"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_3" GUID="31A14B4A-883C-4156-9079-B90897EBF7D3">
+          <num>3.</num>
+          <content>
+            <p>If a person has broken another's limb <span class="gloss">(membrum)</span>,<noteRef href="#note_39" marker="39"/> unless he make agreement <span class="supplied">[for compensation]</span> with him, there shall be retaliation in kind <span class="gloss">(talio)</span>.<noteRef href="#note_40" marker="40"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_4" GUID="B68F3A35-6927-4BBF-9239-5F8BCFF7DA5B">
+          <num>4.</num>
+          <content>
+            <p>If a person has broken or has bruised a bone with hand club, he <span class="supplied">[shall]</span> undergo a penalty of 300 <span class="supplied">[asses, if]</span> to <span class="supplied">[an injured]</span> freeman, <span class="supplied">[or]</span> of 150 <span class="supplied">[asses,]</span> if to <span class="supplied">[an injured]</span> slave.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_5" GUID="0414AB16-5FEB-4FBB-8CB5-C2141991FEDA">
+          <num>5.</num>
+          <content>
+            <p>If a person shall have done <span class="supplied">[simple]</span> harm <span class="gloss">(iniuria)</span> to another, penalties shall be 25 asses.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_6" GUID="D30EEF0E-A1E0-4269-A755-419B507BE882">
+          <num>6.</num>
+          <content>
+            <p><span class="supplied">[If]</span> a person shall have caused loss <omissis>…</omissis> <noteRef href="#note_41" marker="41"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_7" GUID="65CEBD04-3411-4B58-B909-96CC62B1DE8C">
+          <num>7.</num>
+          <content>
+            <p>If a quadruped shall be said to have caused damage <span class="gloss">(pauperies)</span>, legal action <span class="gloss">(actio)</span> <span class="supplied">[shall be sanctioned]</span> either for the surrender of the thing which made the damage<noteRef href="#note_42" marker="42"/> or for the offer of assessment for the damage.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_8" GUID="67DDC97C-0B26-4697-A9B8-C33257881C9F">
+          <num>8.</num>
+          <content>
+            <p><span class="supplied">[If a person]</span> pasture <span class="supplied">[his]</span> cattle <span class="supplied">[on a neighbor's land, he shall be liable to a legal action]</span>.<noteRef href="#note_43" marker="43"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_9" GUID="80F6C1D9-2856-463F-A79C-C7D638DE6B72">
+          <num>9.</num>
+          <content>
+            <p>He who has enchanted crops<noteRef href="#note_44" marker="44"/> <omissis>…</omissis> nor should he decoy another's corn <omissis>…</omissis> <noteRef href="#note_45" marker="45"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_10" GUID="52D89AFA-1431-4721-ADA5-47F005C5ED4C">
+          <num>10.</num>
+          <content>
+            <p>For pasturing on or for cutting secretly by night <span class="supplied">[another's]</span> crops acquired by tillage <span class="supplied">[shall be]</span> in the case of an adult hanging and death <span class="supplied">[by sacrifice]</span> to Ceres;<noteRef href="#note_46" marker="46"/> a person under the age of puberty <span class="gloss">(under 15 years of age)</span> <span class="supplied">[shall]</span> either be scourged at the discretion <span class="supplied">[of the magistrate]</span> or make composition by <span class="supplied">[paying]</span> double <span class="supplied">[damages]</span> for the harm <span class="supplied">[done]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_11" GUID="5F629BD2-4676-4350-BC7F-B01DB9CAA9BB">
+          <num>11.</num>
+          <content>
+            <p>Who shall have destroyed by burning a building or a stack of corn set alongside a house is ordered to be bound, scourged, burned to death, provided that knowingly and consciously he shall have committed this; but if this be by accident <span class="supplied">[, that is]</span> by negligence, either he is ordered to repair the damage or, if he be too poor to be competent for such punishment, he shall be chastised more lightly.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_12" GUID="710481B5-8F0B-489E-95AF-B5041F2BDCC4">
+          <num>12.</num>
+          <content>
+            <p>Any person who shall have felled wrongfully <span class="gloss">(iniuria)</span> other persons' trees shall pay 25 asses for every <span class="supplied">[tree]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_13" GUID="1330CBE1-5F54-4954-8194-03B34953A113">
+          <num>13.</num>
+          <content>
+            <p>If theft has been done by night, if <span class="supplied">[owner]</span> has killed him <span class="gloss">(the thief)</span>, he <span class="gloss">(the thief)</span> shall be <span class="supplied">[held]</span> killed lawfully <span class="gloss">(iure)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_14" GUID="6523E1CA-C16F-4EBB-BCFB-15C6E4A60791">
+          <num>14.</num>
+          <content>
+            <p>It is forbidden that a thief be killed by day <omissis>…</omissis> Unless he <span class="gloss">(the thief)</span> defend himself with a weapon, even though he <span class="gloss">(the thief)</span> shall have come with a weapon, unless he <span class="gloss">(the thief)</span> shall use that weapon and shall resist, you shall not kill him. And even if he <span class="gloss">(the thief)</span> resist, <span class="supplied">[you]</span> shall shout <span class="supplied">[, that some persons may hear and assemble]</span>.<noteRef href="#note_47" marker="47"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_15" GUID="A3F0E84B-B5E4-4D63-A469-07747DEDAC48">
+          <num>15.</num>
+          <content>
+            <p>In the case of all other thieves caught in the act <span class="supplied">[it is ordained]</span> that freemen be scourged and be adjudged <span class="supplied">[as bondsmen]</span> to the person against whom the theft has been committed, provided that they had done this by day and had not defended themselves with a weapon; that slaves caught in the act of theft be whipped with scourges and be thrown from the rock;<noteRef href="#note_48" marker="48"/> that boys below the age of puberty <span class="gloss">(under 15 years old)</span> be flogged at <span class="supplied">[the magistrate's]</span> discretion and that damage done by them be repaired.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_16" GUID="C1142F0E-2919-4BA2-854A-1BEBDB9A0FD5">
+          <num>16.</num>
+          <content>
+            <p>Thefts which have been discovered through <span class="supplied">[use of]</span> platter and loincloth <span class="supplied">[shall be punished just as if the culprits had been caught in the act]</span>. For cases of stolen goods discovered <span class="gloss">(furtum conceptum)</span> <span class="supplied">[by other means than by platter and loincloth]</span> or introduced <span class="gloss">(furtum oblatum)</span> the penalty is triple <span class="supplied">[damages]</span>.<noteRef href="#note_49" marker="49"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_17" GUID="A9F70D21-954F-4E03-B014-A7F78B646656">
+          <num>17.</num>
+          <content>
+            <p>If a person plead on case of theft, in which <span class="supplied">[the thief]</span> shall not be caught in the act, <span class="supplied">[the thief]</span> shall compound for the loss by <span class="supplied">[paying]</span> double <span class="supplied">[damages]</span>.<noteRef href="#note_50" marker="50"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_18" GUID="B6A18514-B25F-46C9-9CC8-26891DB30AF1">
+          <num>18.</num>
+          <content>
+            <p>A stolen thing is debarred from prescription <span class="gloss">(usucapio)</span>.<noteRef href="#note_51" marker="51"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_19" GUID="027D5630-0E88-4720-A49F-CE585D2EFE96">
+          <num>19.</num>
+          <content>
+            <p>No person shall practise usury at a rate of more than one-twelfth<noteRef href="#note_52" marker="52"/> <omissis>…</omissis> <span class="supplied">[if he do,]</span> a usurer shall be condemned for quadruple <span class="supplied">[damages]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_20" GUID="06B59387-8F4D-47F6-B040-B7EE0E6FE6D7">
+          <num>20.</num>
+          <content>
+            <p>In a suit concerning an article deposited <span class="supplied">[with a person who has failed to return the article]</span> legal action <span class="gloss">(actio)</span> for double <span class="supplied">[damages is granted]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_21" GUID="6FBE5B73-F2EE-49AC-B7F7-661EFC0DF2AA">
+          <num>21.</num>
+          <content>
+            <p><span class="supplied">[If]</span> guardians <span class="gloss">(tutor et curator)</span> <span class="supplied">[be suspected of mal-administration, there is]</span> the right to accuse <span class="supplied">[them]</span> on suspicion <omissis>…</omissis> the legal action <span class="gloss">(actio)</span> against guardians <span class="gloss">(tutor)</span> <span class="supplied">[shall be]</span> for double <span class="supplied">[damages]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_22" GUID="273CDCBA-C06D-43B3-8296-9CEB7CBF467A">
+          <num>22.</num>
+          <content>
+            <p>If a patron <span class="gloss">(patronus)</span> shall have defrauded a client <span class="gloss">(cliens)</span>, he shall be forfeited solemnly <span class="gloss">(sacer)</span>.<noteRef href="#note_53" marker="53"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_23" GUID="4C1A94DC-8D07-457D-9A8B-A88743CD0497">
+          <num>23.</num>
+          <content>
+            <p>Whoever shall have allowed himself to be called as a witness or shall have been a scales-bearer <span class="gloss">(libripens)</span>,<noteRef href="#note_54" marker="54"/> if he <span class="supplied">[as a witness]</span> pronounce not his testimony, he shall be dishonored and incapable of giving evidence <span class="gloss">(intestabilis)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_24" GUID="8BB573FA-E676-4294-BCB8-2C59BFEBE7D4">
+          <num>24.</num>
+          <content>
+            <p>The penalty for false testimonies <span class="supplied">[is]</span> that any person who has been convicted of speaking false witness <span class="supplied">[shall be]</span> precipitated from the Tarpeian Rock.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_25" GUID="E5FBE462-46C8-4FE7-8623-24B88CC6F3EB">
+          <num>25.</num>
+          <content>
+            <p>If a weapon has sped from one's hand rather than <span class="supplied">[if the wielder]</span> has hurled <span class="supplied">[it, <omissis>…</omissis> he shall atone for the accidental deed by providing]</span> the substitution of a ram <span class="supplied">[as a peace-offering to prevent blood-revenge]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_26" GUID="59B80DAA-B453-4EE3-8425-FD3182AA3926">
+          <num>26.</num>
+          <content>
+            <p><span class="supplied">[For administering]</span> a noxious drug <omissis>…</omissis></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_27" GUID="3A4B3FF7-5F0B-46E0-AC31-05525F9108C8">
+          <num>27.</num>
+          <content>
+            <p>No person shall hold nocturnal meetings in the city.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_VIII__frg_28" GUID="B31491DD-4961-4A34-ADAC-3042B152728A">
+          <num>28.</num>
+          <content>
+            <p>Members of guilds have the power to make for themselves any binding rule which they may wish, provided that they violate nothing in accordance with public law <span class="gloss">(publica lex)</span>.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_IX" GUID="3EA8BE9B-1DA0-4C26-A7F6-ECAEA43B5D17">
+        <num>Table IX</num>
+        <heading>Public Law</heading>
+        <hcontainer name="fragment" eId="tbl_IX__frg_1" GUID="7AB1D697-AD3F-4AA8-98D0-01E9600FA62B">
+          <num>1.</num>
+          <content>
+            <p>Laws of personal exception <span class="gloss">(privilegium)</span><noteRef href="#note_55" marker="55"/> shall not be proposed.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_IX__frg_2" GUID="15E431E4-A56A-41BC-98AD-BEE82B46F876">
+          <num>2.</num>
+          <content>
+            <p><span class="supplied">[Laws]</span> concerning the person <span class="gloss">(caput)</span><noteRef href="#note_56" marker="56"/> of a citizen shall not be passed except by the greatest assembly <span class="gloss">(maximus comitiatus)</span><noteRef href="#note_57" marker="57"/> and through those whom they <span class="gloss">(the consuls)</span><noteRef href="#note_58" marker="58"/> have placed upon the registers of the citizenry.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_IX__frg_3" GUID="ABB5122F-9121-47D3-AD3D-C678CADE6836">
+          <num>3.</num>
+          <content>
+            <p>A judge <span class="gloss">(iudex)</span> or an arbitrator <span class="gloss">(arbiter)</span> legally <span class="gloss">(iure)</span> appointed, who has been convicted of receiving money for declaring a decision, shall be punished capitally <span class="gloss">(capite)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_IX__frg_4" GUID="41A81F57-3DE4-48EF-B5A2-78DF3B6DD2BA">
+          <num>4.</num>
+          <content>
+            <p><span class="supplied">[Provisions pertaining to]</span> the investigators of murder <span class="gloss">(quaestor parricidii)</span> <span class="supplied">[appointed to have charge over capital cases]</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_IX__frg_5" GUID="10E4EFE6-7DCC-41C7-A604-24334F9B4894">
+          <num>5.</num>
+          <content>
+            <p>Whoever shall have incited a public enemy <span class="gloss">(hostis)</span> or whoever shall have delivered a citizen <span class="gloss">(civis)</span> to a public enemy shall be punished capitally <span class="gloss">(capite)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_IX__frg_6" GUID="BF4CCE02-AC2A-42B6-857F-874FD6F5FE5F">
+          <num>6.</num>
+          <content>
+            <p>It is forbidden to put to death <omissis>…</omissis> unconvicted any one whomsoever.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_X" GUID="7D751655-288A-41AB-8126-C9A4EDE11BD9">
+        <num>Table X</num>
+        <heading>Sacred Law</heading>
+        <hcontainer name="fragment" eId="tbl_X__frg_1" GUID="B64EA560-0591-4107-AC31-B83B2D405E2B">
+          <num>1.</num>
+          <content>
+            <p>A dead person shall not be buried or burned in the city.<noteRef href="#note_59" marker="59"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_2" GUID="D669FF1A-E5C0-4B9C-AAC3-24F45E299C11">
+          <num>2.</num>
+          <content>
+            <p>More than this shall not be done. The funeral pyre <span class="gloss">(rogum)</span> shall not be smoothed with the axe.<noteRef href="#note_60" marker="60"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_3" GUID="20179C1C-4121-425A-AE96-60536822874A">
+          <num>3.</num>
+          <content>
+            <p><span class="supplied">[Expenses of a funeral shall be limited to]</span> three <span class="supplied">[mourners wearing]</span> veils and one <span class="supplied">[mourner wearing]</span> small purple tunic and ten flute-players.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_4" GUID="36C6526C-F730-45AB-8A31-0DACAEC6B2D4">
+          <num>4.</num>
+          <content>
+            <p>Women shall not tear their cheeks or have a lessus <span class="gloss">(sorrowful outcry)</span><noteRef href="#note_61" marker="61"/> on account of the funeral.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_5" GUID="36F5F949-8B7B-46DA-9FD4-946E886143DE">
+          <num>5.</num>
+          <content>
+            <p>The bones of a dead person shall not be collected that one may make a funeral afterward.<noteRef href="#note_62" marker="62"/> An exception is for death in battle or on foreign soil.<noteRef href="#note_63" marker="63"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_6" GUID="0985F407-E1C0-4A16-B71F-F1A539C468F9">
+          <num>6.</num>
+          <content>
+            <p>Anointing by slaves and every kind of drinking-bout is abolished <omissis>…</omissis> <span class="supplied">[there shall be]</span> no costly sprinkling, no myrrh-spiced drink, no long garlands, no incense-boxes.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_7" GUID="114120AA-830D-4885-B2AF-C273D98AB6DB">
+          <num>7.</num>
+          <content>
+            <p>Whoever wins a crown <span class="gloss">(corona)</span><noteRef href="#note_64" marker="64"/> himself or through his chattel<noteRef href="#note_65" marker="65"/> or by his valor, <span class="supplied">[a crown]</span> is bestowed on him <span class="supplied">[, when he is burned or buried]</span> <omissis>…</omissis> on him <span class="gloss">(who has won it)</span> and on his father <span class="supplied">[it shall be laid]</span> with impunity <span class="gloss">(sine fraude)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_8" GUID="4E29E199-736F-40B0-B754-EC7ACDE13B3C">
+          <num>8.</num>
+          <content>
+            <p>This also shall not be done: to make more than one funeral and to spread more than one bier for one person.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_9" GUID="E8A8080C-3225-410D-BF92-A1C9568CA40E">
+          <num>9.</num>
+          <content>
+            <p>Gold shall not be added <span class="supplied">[to a corpse]</span>. But him whose teeth shall have been fastened with gold, if a person shall bury or shall burn him with that <span class="gloss">(gold)</span>, it shall be with impunity <span class="gloss">(sine fraude)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_10" GUID="6FFB15E2-D8D2-4A69-AE86-FE533A752C71">
+          <num>10.</num>
+          <content>
+            <p>It is forbidden for a new pyre <span class="gloss">(rogum)</span> or a burning-mound <span class="gloss">(bustum)</span> to be erected nearer than sixty feet to another person's buildings without the owner's consent.<noteRef href="#note_66" marker="66"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_X__frg_11" GUID="F462857B-6307-489E-8A77-87563B362C93">
+          <num>11.</num>
+          <content>
+            <p>It is forbidden for a vestibule of a sepulcher <span class="gloss">(forum)</span> and a burning-mound <span class="gloss">(bustum)</span><noteRef href="#note_67" marker="67"/> to be acquired by usucapion.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_XI" GUID="966A8746-B59C-4280-A273-8BE076F5989C">
+        <num>Table XI</num>
+        <heading>Supplementary Laws</heading>
+        <hcontainer name="fragment" eId="tbl_XI__frg_1" GUID="1AA399C8-64FF-4E67-9627-BD56107A648E">
+          <num>1.</num>
+          <content>
+            <p>Intermarriage <span class="gloss">(conubium)</span> between plebeians and patricians shall not occur.<noteRef href="#note_68" marker="68"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_XI__frg_2" GUID="CCA81B14-C3B6-48F3-8395-C3C923B1882A">
+          <num>2.</num>
+          <content>
+            <p><span class="supplied">[Regulations]</span> concerning intercalation.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_XI__frg_3" GUID="AEFEDF2B-636A-4FE8-A873-EC2DA4DD1B68">
+          <num>3.</num>
+          <content>
+            <p><span class="supplied">[Declaration concerning]</span> days deemed favorable for official legal action <span class="gloss">(dies agendi)</span>.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="table" eId="tbl_XII" GUID="9F168D6B-0589-4BB6-8F89-3B72832DF6D5">
+        <num>Table XII</num>
+        <heading>Supplementary Laws</heading>
+        <hcontainer name="fragment" eId="tbl_XII__frg_1" GUID="90D3F7F4-D9ED-49F3-B109-5F2889EDDA40">
+          <num>1.</num>
+          <content>
+            <p><span class="supplied">[There shall lie]</span> a levy of distress <span class="gloss">(pignoris capio)</span><noteRef href="#note_69" marker="69"/> against a person who has bought an animal for sacrifice and pays not the price; likewise against a person who makes not payment for that yoke-beast which any one has lent for this purpose, that therefrom he may raise money to spend on a sacred banquet <span class="gloss">(sacrifice)</span>.</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_XII__frg_2" GUID="D334F6DD-36B5-4943-9E5C-43B798F0CFD4">
+          <num>2.</num>
+          <content>
+            <p>If a slave shall have committed theft or shall have done damage <omissis>…</omissis> with his master's knowledge <omissis>…</omissis> the action for damages <span class="gloss">(actio noxalis)</span> is in the slave's name. Arising from delicts committed by children and by slaves of a household <omissis>…</omissis> actions for damages <span class="gloss">(actio noxalis)</span> shall be appointed, that the father or the master can be allowed either to undergo assessment of the suit <span class="gloss">(litis aestimatio)</span> or to deliver <span class="supplied">[the delinquent]</span> for punishment.<noteRef href="#note_70" marker="70"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_XII__frg_3" GUID="B8F426C3-BF9A-4441-973E-770E00F04081">
+          <num>3.</num>
+          <content>
+            <p>If a person has taken <span class="supplied">[a thing by]</span> a false claim,<noteRef href="#note_71" marker="71"/> if he should wish <omissis>…</omissis> the magistrate shall grant three arbitrators <span class="gloss">(arbiter)</span>; by their <span class="supplied">[adverse]</span> arbitration <span class="gloss">(arbitrium)</span> <omissis>…</omissis> <span class="supplied">[the defendant]</span> shall compound for loss caused by <span class="supplied">[paying]</span> double <span class="supplied">[damages from enjoyment of the article]</span>.<noteRef href="#note_72" marker="72"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_XII__frg_4" GUID="8B350B83-CD0B-415F-86E4-0CE8A037C77F">
+          <num>4.</num>
+          <content>
+            <p>It is forbidden to dedicate for consecrated use <span class="gloss">(in sacrum)</span> any thing of which there is a controversy <span class="supplied">[about its ownership]</span>; otherwise a penalty of double <span class="supplied">[the amount involved]</span> shall be suffered.<noteRef href="#note_73" marker="73"/></p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="tbl_XII__frg_5" GUID="32242CAE-16F7-4B3A-82D9-19094027234F">
+          <num>5.</num>
+          <content>
+            <p>Whatsoever last the people have ordained, this shall be binding and valid <span class="gloss">(ius ratumque)</span>.<noteRef href="#note_74" marker="74"/></p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer name="unplaced" eId="unplaced" GUID="CEAC60B2-65C8-44C7-A2D6-470489825199">
+        <heading>Unplaced Fragments</heading>
+        <hcontainer name="editorialComment" eId="unplaced__cmt" GUID="D17570E7-EE22-412E-96DE-F4778F1B525F">
+          <content>
+            <p class="editorial">There are extant about a dozen fragments of whose place in the Twelve Tables we are ignorant. In nearly every instance these fragments consist of only one word or phrase, which later Latin antiquarians have preserved to illustrate an ancient spelling or to explain an archaic usage or to point a definition.</p>
+            <p class="editorial">The longest fragment only is worth reproduction for the present purpose:</p>
+          </content>
+        </hcontainer>
+        <hcontainer name="fragment" eId="unplaced__frg_1" GUID="8FE12B09-0903-4728-A631-8825030F6EF6">
+          <content>
+            <p>To appeal from any judgement <span class="gloss">(inuicium)</span> and sentence <span class="gloss">(poena)</span> is allowed.<noteRef href="#note_75" marker="75"/></p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>
