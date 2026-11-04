@@ -35,3 +35,13 @@ Text and notes: P.R. Coleman-Norton, *The Twelve Tables*, as published by [Proje
 ## Fonts
 
 The stylesheet embeds Cinzel and EB Garamond, both licensed under the [SIL Open Font License](https://openfontlicense.org/).
+
+## License
+
+The Akoma Ntoso markup, stylesheet rules, scripts and landing page are under the MIT License in `LICENSE`. That license does not cover the items below, which keep their own terms.
+
+- **Text:** P. R. Coleman-Norton's text and notes, as published by Project Gutenberg, which treats it as not protected by U.S. copyright. Its status outside the United States has not been confirmed.
+- **Images:** None.
+- **Fonts:** Cinzel and EB Garamond, under the licenses in `FONT-LICENSES.md`.
+
+This is an unofficial copy, not an official version of the text.
